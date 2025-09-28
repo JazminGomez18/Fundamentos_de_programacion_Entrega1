@@ -10,6 +10,6 @@ Repository for uploading codes corresponding to Assignment 1 of the Fundamentals
 Make sure you have Python 3 installed.  
 Place your `.asn1` files in the same folder (or adjust the script).  
 
-Run:
+Run the script from the terminal:
 ```bash
-python ASN1_to_TSV.py
+python ASN1_to_TSV.py > output.tsv
