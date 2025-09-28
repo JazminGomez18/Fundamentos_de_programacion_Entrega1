@@ -1,0 +1,1314 @@
+Seq-entry ::= set {
+  class small-genome-set,
+  descr {
+    pub {
+      pub {
+        sub {
+          authors {
+            names std {
+              {
+                name name {
+                  last "Gallo",
+                  first "Yuliana",
+                  initials "Y."
+                }
+              },
+              {
+                name name {
+                  last "Gutierrez",
+                  first "Pablo",
+                  initials "P."
+                }
+              },
+              {
+                name name {
+                  last "Marin",
+                  first "Mauricio",
+                  initials "M."
+                }
+              }
+            },
+            affil std {
+              affil "Universidad Nacional de Colombia sede Medellin",
+              div "Biociencias",
+              city "Medellin",
+              sub "Antioquia",
+              country "Colombia",
+              street "Cra. 65, 59a - 110"
+            }
+          },
+          medium email,
+          date std {
+            year 2019,
+            month 6,
+            day 18
+          }
+        }
+      }
+    },
+    update-date std {
+      year 2020,
+      month 2,
+      day 12
+    }
+  },
+  seq-set {
+    set {
+      class nuc-prot,
+      descr {
+        source {
+          genome genomic,
+          org {
+            taxname "Potato yellow vein virus",
+            db {
+              {
+                db "taxon",
+                tag id 103881
+              }
+            },
+            orgname {
+              name virus "Potato yellow vein virus",
+              attrib "specified",
+              mod {
+                {
+                  subtype isolate,
+                  subname "PYVV/Antioquia/May5"
+                },
+                {
+                  subtype nat-host,
+                  subname "Solanum lycopersicum"
+                }
+              },
+              lineage "Viruses; Riboviria; Orthornavirae; Kitrinoviricota;
+ Alsuviricetes; Martellivirales; Closteroviridae; Crinivirus; Crinivirus
+ flavisolani",
+              gcode 1,
+              div "VRL"
+            }
+          },
+          subtype {
+            {
+              subtype country,
+              name "Colombia"
+            },
+            {
+              subtype segment,
+              name "RNA1"
+            },
+            {
+              subtype collection-date,
+              name "2018"
+            }
+          }
+        }
+      },
+      seq-set {
+        seq {
+          id {
+            genbank {
+              accession "MN088360",
+              version 1
+            },
+            gi 1806555322
+          },
+          descr {
+            molinfo {
+              biomol genomic,
+              completeness complete
+            },
+            user {
+              type str "StructuredComment",
+              data {
+                {
+                  label str "StructuredCommentPrefix",
+                  data str "##Assembly-Data-START##"
+                },
+                {
+                  label str "Assembly Method",
+                  data str "Magic-BLAST v. 2018"
+                },
+                {
+                  label str "Sequencing Technology",
+                  data str "Illumina"
+                },
+                {
+                  label str "StructuredCommentSuffix",
+                  data str "##Assembly-Data-END##"
+                }
+              }
+            },
+            user {
+              class "1.0",
+              type str "AutodefOptions",
+              data {
+                {
+                  label str "UseLabels",
+                  data bool TRUE
+                },
+                {
+                  label str "LeaveParenthetical",
+                  data bool TRUE
+                },
+                {
+                  label str "SpecifyNuclearProduct",
+                  data bool TRUE
+                },
+                {
+                  label str "MaxMods",
+                  data int 0
+                },
+                {
+                  label str "FeatureListType",
+                  data str "Complete Sequence"
+                },
+                {
+                  label str "MiscFeatRule",
+                  data str "Delete"
+                },
+                {
+                  label str "HIVRule",
+                  data str "WantBoth"
+                },
+                {
+                  label str "ModifierList",
+                  data fields {
+                    {
+                      label str "SubSources",
+                      num 1,
+                      data strs {
+                        "segment"
+                      }
+                    },
+                    {
+                      label str "OrgMods",
+                      num 1,
+                      data strs {
+                        "isolate"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            create-date std {
+              year 2020,
+              month 2,
+              day 12
+            }
+          },
+          inst {
+            repr raw,
+            mol rna,
+            length 7829,
+            seq-data ncbi2na '73C9FD4980CB1F80D04AF9679CB4BF414FF48F96794B4BF4
+344405004050144429F94B15C078DF0F38974C04147BA40BA9075155775A80FB6FB14F31553280
+05300033F02E4300D2C5201FD38EF80AF80B9EC76CFF0CF40C202C4228E524B0F29303FA248F3F
+B534303D321D1C3901E0BABDC0800DE252FBC38AE3F4A0512ECEB8E8CC0B4D633A035DDFEC8EFF
+CCCFF0CACE38E30D78FD03128FFBFDC30230030C16DA0E2B4EEF5BA14C0B6980D020F79640FC77
+3DD8B7B52414BF427439F1E7B4B2C8823544BD00B72C6734E20CBB7D08604E031348800F4023ED
+E38CE03773E8C8AEF02DA42081D9608882D40753102787353386D0BE10DDA1E6A82043FB8C0110
+35A008007AE2038EB0F77420DEC439C5F3142AC713DD4609E620453DA7523D0B44520E0C79E8E8
+65F67B63A0A08F52366E314C5721D0BE23379FD3CACEAD331C6E808E8AD34B8C03EF47D8546CCD
+59047080B41520F4EBEB380723A349A83091E90FC844F7F86333B8E934E412145BC89A20E37871
+C3BCD21BB3604E7838807F4B406E078CB00B3BF87D2788208EFB982CFD484FB0FAFF8210B7C76D
+D19BEF4694E221EE00F1C4ED020BFDBB081FCF867A2B86CB19C5E0048E5211B93B7B9D7BAF84C0
+21D2729039B6CB2D236105C62AB878853473B9040FB9421E63BA0D120CCB65B50BF38CE25E0633
+A48C93CADD300B004F61F743CC3D652230E8208FB8EC0FEFC3A4B78AB82D200A108F4737B1A429
+EB82CC774E331051E22337E40748FF7B213AAF3310021DE88EDDB0E8F91F7FD2E316EE207D015A
+84CF4B341F1C770B5887A45B9F3893178C0848F6B807B414C0B48BE323732C15178C833B4E0749
+DD6EC8E1027BE0C7E33743D6372820CCDCD02AAC0BAE48C5BD85F50E07CCD4ABF72A34FFAB828F
+0AF88802D0EC7F9C2BCBCF1013C4E57433FBAD34E91C74163C3C11E728A0E5CC0B39F8BBBC675F
+FBD608FD3C18CE33DA210083DB8BE86236F83D0121CC1EE368800A6F401BCE081DBF848F4D020D
+6381A3FF8EE8400FCCD4321802FF64E38B382D38883E3742EBAEB9B482BFD2F4C8FD2E7C7400DF
+41EEFD00B7F2C754092F2E3B64ADD3490BE336CDD7840AB70317E1EA34081D30FD3E34038F680A
+AEDB7AB4826F80AEF30123900322C0C33AD0810208E135D0407600BDFA28238E0B230C7036DFCB
+D92089001D46C3DAE2C324081D101247BBEB8B07E7F1023A80CDF7EB1F1346487580EBF27F84F5
+34B8103D82081212025CF238F3F81175FE37AEDDCA6AACB08DD143E803F7D001F64FF3E080F80F
+88B4F48ECDA236FE13FD869E4288FEEC8E8383F9C01DF7F76312318C87E78D02ADC9ECD7F4CED3
+442DD37FAE9F4030B0AE73D385F3DB3DDCC09FDA8322080CCCAF18FA307DD0F348C1FBF9684DE2
+4378BC4F50603FFBF28ACCF83703E02FDEBD00DE63CCDE243B0237CC9408FEAF3200CE7833B845
+8138C08D3EB38DD1E3BD27E07D58DFC774138F3CC784F1E0E1FB403378212CBED04E0ED47E2F19
+F43DF882D412F4898F4803E08331E21303D8050820228F43988E08E9FE35901C8BABF40421D438
+E28CF82CBFD8718E8D731E214A0161C5EC39272C5D6A08C8FA9617E0063D6C80BF238E00DF07DD
+02FAC5C72E360B00FED608442FA3E241B8FF87CD4D359F4B8EFFE80B14382E141EDF0E2F71CDC8
+844887B43E07EA08F8C37ED204F412CCC43834382FC08E6BBA4DF6C120E8E3D043313F40C1AC28
+3A448F802288EE8FD0BCFA2A0B100F61F8148338F87F820087569BD23C6D608BF76AFB11C10C0E
+FCA8C83634ED0B52A03D5207026888C3BCC3F30405D4A27AC014410DB4307EF8A84C04108020B3
+E6F042C7DA7A8222230F8C0F00D82AEE290913DF3BC81B3867B1D303BA328E0FC8EE733EE383BF
+4E31326B43FB27BC480F3049E120E83CCEB8C0050354CCD0C8B96047149FB3D7D051FDF4318CEB
+D38E30B5C4AE545E1B39C4CFB707E283D37A20F3CC5402BB80DEF0C206604FF19D8E82C780F612
+EE0E3723AE092A282CEE13D1D05E202080DD8A32ED8A0C2020DE3127044B8382D428A85FC212E8
+9CB48DC043384154CC4B8CD0D2F4CB8B334653122DCE2336C73D3D027438FDBE88003439FEDC7B
+B78D1B4C022C7BFC849BBF860CCA322B63BBB67FAC117E248956D744FFBE5B8183D3A0F8C0D7AF
+E2E7463CDECD81DC7318B1812CE0754FEE8E3787F2334620B916C47DEA8FDF2C5C03FCAC0A2028
+4614847E804AE7CFD5FDD1201FF491628C06223D8C3B421A480DF0B083F0DA39382FA221CCE20F
+D8D6BDC5217086EF8C0EBE3342235030BE288FB36F6F761E3FBEB4103D0E374078EBC0AB53805C
+2FA31F7DF3246C44517DC33EECF3890BAF04EFF1D1533FFA2B7F88834ACFB3838423EF3B126838
+172011FD6230C2F903C10E5FE0E2C7114780C8FFD02FE30B642BBEFF407338203ADC40F7D02FD2
+08EFCE20CC03DD22CFFE48B88D082EB3D01E07289D028A128D17044EBED4113C1053A7BEDF34DF
+30FC8E13E273FFAF2EB8E12FE33FD02CD476304A1D028E0EE87FACE8260BF3E20F7B17C7DE740B
+D3CC4232A820F02D3148D4B88F7F802FB7B17BB4CD0873803E8338F22223D3F4CC08DE3AE83F8F
+38462FB3BCB23B0EBB401ACF7F160CE937CE693EEF13D1EFCF250E7437F4060FCFE8F633CBB633
+83A07BD432F380F793C80ADA20EEB82382EFC88C8F4BC4C38CBB3EF3BFE3ACBDC9EC91EEFE317E
+CB02734043D33032CE0C0C30CC30CC0F0F0C0383005A80'H
+          }
+        },
+        seq {
+          id {
+            genbank {
+              accession "QHW06855",
+              version 1
+            },
+            gi 1806555323
+          },
+          descr {
+            title "polyprotein [Potato yellow vein virus]",
+            molinfo {
+              biomol peptide
+            },
+            create-date std {
+              year 2020,
+              month 2,
+              day 12
+            }
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 1969,
+            seq-data ncbieaa "MSLINNHCGKVGNSTPLSGKLSLYHYTPIGKTIKKYLKCNKISTRNFH
+DVERLKVLYSYFNIQIRKYKRMPAVIRHKFGADYLSINKFIDSLMQTEVGSKEKSEPVVNEVISGTTVYGDGYKVIRY
+GNPLFVDVFIYFNRYDDDNPDFKYRILFSNKDKNNNRRNEVMCSVDHKVGEIKEFCRKFTLFSSLSSNQFQAQCLLLS
+VVEKIPQFKSLVRYHENSVFKTNMKYIREKFKRLSDDMKSLLDRGVKVGKKNSPKREVQTPYKADYPYDVKLTISDCG
+EEQFVIKHKSGKEKLVRNDGNSLKNLYNATLYQGYYILHEAARTPFGSRFKSHQNEYCWMDAFAVDGRKIPDRVIPYP
+RLKLRYLLSLGMGHILRGKMEVISDKIVHFDPRISRNTKKVNPEFMVGMKLDGSAGISTGNLDTFFDDICDGIMQQTT
+VRAENDLTTNVIRRVSNMLNEKLSVKRELIVKVCLTSAEKKMLCEVFPDIVIGFEDKSYSSHALFTAMRDCENYYMSK
+KFSCKNFIDAGGDVVRYLKTDARHVHVCAPVVDIKDSARQMRRSSQIDNLRGVTETITMCNKLCQDCDVESQNIVAVQ
+VYDMSLNDMADSIRSHKSKTFDFSIIIPPEIMEEDCDVNLFNGSLRVKSEKDKIHYLYGKAGEVYSHDIQPLRDILQT
+QIFCRHGVIYKKTLEMSRNGLHFFSVIPCENFKPGTYSVSTYYSKSETGTVLMSIPDKDRFGETVNHKVRVDRSIVTH
+LIEYVMNSALRVDDKAVEYLISQFRSRKNISIKGGKVVQIPFDLPMNLYPGFLGIILGEGLRLREKSMYFAKVSYYKH
+YMPSIFVVIMALLNRLINTARRNAYKVCLSVLRSFCSEDFINDMIFGDKRIRELDEIVEFKQTITVIGEKGVQNVMKN
+SFDRFIKESDERIFDVDKNLYPIDEKFSHDEYEVMRELISSGGGASEGFQFIDFSAYSKIFNCVSKVFSTPKAVSDVA
+GLISKLISYLLTKGLNTLTGIKELIISLIKMIRKGVSSGSEALKGVINRCKNRVNNMVKNKEDDILNKLEKFLEEDDE
+VDNTKSSLVRRRAKTPRNSVSNSKELTNSTVLVSNLLYKDGKYLLGTYITQTPKWFSFDIPSVNKFEEEQTESLLDDY
+LNTSFDLVSLGGGSKISPIGKFLQKLRILLKKLKLRVIQMYRRSFDIFDGCKEICVDGMNLLKLFFLDTDTIDLLIKG
+SSCILSYVITSLIFGGFKISKVLFMTLFVFSIKLSGIEKKYIGYDWITSQLSDNLFAGHLSNLSYIPTKFLFRRYIES
+KLKVSGSKSAIISEQCKDLIAKDLGYRKYAEYVTPNMIKIIGMISLMFSLNFPIFTLNMIIILTLLNDLSKYLKTVVV
+NMNVHLSYASILEKSNSSERFRKLKNILRHKFETKKKEDSMRDEDGFDPQTRVGFKQDSNDEDIEVVFDYDGSYTETR
+KPTTCNAASTSGKIDWADLENDSVESLDDENLNFSKLVPTSDRSKICPKTQVGLSNVILTYPSSASVMFLESTNEVTN
+CLNEFYYLETQRLSIELGKIDNLVRTFNSIYNESMKFKDAVWHLRNRMDDSTIYISNNGKEWHRLKRGDVDFKLLEGS
+TKFDLNQNMIDFEEKTPGVQITSEEFLGLYTNNKCLGIESIMSSPGKFPELKRRDNVIIYNKPPGAGKTTTIVNNLLR
+DINNKKRSIALTSTSAGKREIIDKLKSKGVRQAHSYVRTYDAVLINVDRMNLDVLYCDECFMIHSGQFVAVTEIITAD
+RMELYGDKNQIPYINRVPNTTSLYSFNHFLQYDMVHDDKSYRCPPDVCYILSNLRNSSGELLYPKGVKSVNKNANILR
+SMEVLKFDSVNDLDGEAGRKYVTFTQPEKEEISRIVSRNKKESDTANTVNEVQGGTFKTVELVRSKQYDNPIYSDINQ
+FIVSISRHTESMRYRTIHSKLNDFVGEKINALSTVSDHVIKEYCFRQRV"
+          },
+          annot {
+            {
+              data ftable {
+                {
+                  data prot {
+                    name {
+                      "polyprotein"
+                    }
+                  },
+                  location int {
+                    from 0,
+                    to 1968,
+                    id gi 1806555323
+                  }
+                }
+              }
+            }
+          }
+        },
+        seq {
+          id {
+            genbank {
+              accession "QHW06856",
+              version 1
+            },
+            gi 1806555324
+          },
+          descr {
+            title "putative hydrophobic membrane protein [Potato yellow vein
+ virus]",
+            molinfo {
+              biomol peptide
+            },
+            create-date std {
+              year 2020,
+              month 2,
+              day 12
+            }
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 61,
+            seq-data ncbieaa "MNGTVPIVMKFCIRKVGECGEDEVFRDRFSYIMIVYCYVLMVVLAVAL
+CLIPCSKAIKQFI"
+          },
+          annot {
+            {
+              data ftable {
+                {
+                  data prot {
+                    name {
+                      "putative hydrophobic membrane protein"
+                    }
+                  },
+                  location int {
+                    from 0,
+                    to 60,
+                    id gi 1806555324
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      annot {
+        {
+          data ftable {
+            {
+              data cdregion {
+                frame one,
+                code {
+                  id 1
+                }
+              },
+              product whole gi 1806555323,
+              location int {
+                from 160,
+                to 6069,
+                strand plus,
+                id gi 1806555322
+              }
+            },
+            {
+              data cdregion {
+                frame one,
+                code {
+                  id 1
+                }
+              },
+              product whole gi 1806555324,
+              location int {
+                from 7582,
+                to 7767,
+                strand plus,
+                id gi 1806555322
+              }
+            }
+          }
+        }
+      }
+    },
+    set {
+      class nuc-prot,
+      descr {
+        source {
+          genome genomic,
+          org {
+            taxname "Potato yellow vein virus",
+            db {
+              {
+                db "taxon",
+                tag id 103881
+              }
+            },
+            orgname {
+              name virus "Potato yellow vein virus",
+              attrib "specified",
+              mod {
+                {
+                  subtype isolate,
+                  subname "PYVV/Antioquia/May5"
+                },
+                {
+                  subtype nat-host,
+                  subname "Solanum lycopersicum"
+                }
+              },
+              lineage "Viruses; Riboviria; Orthornavirae; Kitrinoviricota;
+ Alsuviricetes; Martellivirales; Closteroviridae; Crinivirus; Crinivirus
+ flavisolani",
+              gcode 1,
+              div "VRL"
+            }
+          },
+          subtype {
+            {
+              subtype country,
+              name "Colombia"
+            },
+            {
+              subtype segment,
+              name "RNA2"
+            },
+            {
+              subtype collection-date,
+              name "2018"
+            }
+          }
+        }
+      },
+      seq-set {
+        seq {
+          id {
+            genbank {
+              accession "MN088361",
+              version 1
+            },
+            gi 1806555325
+          },
+          descr {
+            molinfo {
+              biomol genomic,
+              completeness complete
+            },
+            user {
+              type str "StructuredComment",
+              data {
+                {
+                  label str "StructuredCommentPrefix",
+                  data str "##Assembly-Data-START##"
+                },
+                {
+                  label str "Assembly Method",
+                  data str "Magic-BLAST v. 2018"
+                },
+                {
+                  label str "Sequencing Technology",
+                  data str "Illumina"
+                },
+                {
+                  label str "StructuredCommentSuffix",
+                  data str "##Assembly-Data-END##"
+                }
+              }
+            },
+            user {
+              class "1.0",
+              type str "AutodefOptions",
+              data {
+                {
+                  label str "UseLabels",
+                  data bool TRUE
+                },
+                {
+                  label str "LeaveParenthetical",
+                  data bool TRUE
+                },
+                {
+                  label str "SpecifyNuclearProduct",
+                  data bool TRUE
+                },
+                {
+                  label str "MaxMods",
+                  data int 0
+                },
+                {
+                  label str "FeatureListType",
+                  data str "Complete Sequence"
+                },
+                {
+                  label str "MiscFeatRule",
+                  data str "Delete"
+                },
+                {
+                  label str "HIVRule",
+                  data str "WantBoth"
+                },
+                {
+                  label str "ModifierList",
+                  data fields {
+                    {
+                      label str "SubSources",
+                      num 1,
+                      data strs {
+                        "segment"
+                      }
+                    },
+                    {
+                      label str "OrgMods",
+                      num 1,
+                      data strs {
+                        "isolate"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            create-date std {
+              year 2020,
+              month 2,
+              day 12
+            }
+          },
+          inst {
+            repr raw,
+            mol rna,
+            length 5296,
+            seq-data ncbi2na 'B2E357EAF0878BDED15CEE0F1F5B2780B351FA14EDE2FF4B
+E45111108510FCFF5494B03C0F0003000CFF3FF80DDA8C00414DFA463A904455505F25B3A70E9D
+E883FAFB5FCD568F2CFFD3D0FDD3A4CB20E0DDE3BE072E2CED407D1D2F61B4123E623F48FE3DE2
+32DB796ADC23DF485F73EEF72203301000D00080C0B95DCDF4314BBC0800F4C02000800BFFBD3F
+C0FE0010300310DE33A74409E8FA3FEB145F7414D2CBCC98EBBCE02F780F830758B33D61FBFB73
+34840AA1B8C329AA79D0BFC84BAE030213BCFFCE17826FAB6BB2320D0F30ED300400300524C6D1
+4B76CA438EF4CF1E83030ABFF7E44CC7B8249F33CF3F3E31ECBDBF3FD003E00FC0CCBCB303B74B
+57963C40E4248A3BD388D2FEE1D1EAFFD3C20A34D0E05F496490CCC3B89033501CC0CFF3CECE3F
+E8AEB1FF8F9D1C306223A88F6C16E9231E0A21DB17A8AD88CF8C39CD482CFE3A608101EDD354D1
+778FDF25D0C02083B0F41F6087DFF12DFE3B8304874212FDFD0C28237A737914053FEC720B7E13
+DF04338F88A0F53071EBB4CFDCB68A37DDCF821ED42382E237FC9380083FA3EEF3E3023F880E4B
+B4F68EF43904E7420874A45387C4C87B0774D6F0E8CDD0EFEB0D408F34D60050ED2D5311D13E20
+8A02D8D94710C79DE04FCE0A3487EF47F830E3EBE3CB9E3B991808F1EDF8AB420F0B300CECCC33
+23ACEF21FB13002C3F500C084D71E0810BDDFC1E208F900F23F8278443ED043E18A79C772F90FF
+8BCF10F485E8AFF1C09EB001D4DDDFE02E07742ACBF514281FF0B0BEBB7F03003FF4E3D383D1FE
+CA30FFE0B83003FFBBF3F5EDC30488FF7AA862F87C7E8D624F8237488DFF088D3FF33CA02CEB8B
+3FF28B52CB488FF74B3AFF401438D7DE200DAE2303033F2C003FF33E00D00C0CC81C1302AC8F04
+83C14B0F3FEF2830E233FB0384B0FF7A23FE03E52E3F33B168F6D48BE1820CB9337D788337F975
+C43CE0FF108327FDD74F38C08FE0F7FDFDCB0C288CA7BF331226A33D2811C56D6F4E8B48F9F11F
+CCABFB0F7F2A2B3B23F8383C8C3AC33C0A3DD0C8D484B02408F3688AB7F5D835DFF41DBBBA233F
+28BCDC8BE2E51C09EA0E70AF8A60C208FF47133741ECE2DFAA02F388A30A08351FB8C902F4D01D
+C6083D14083722AFC08E3FE294C01F74758AF40BBDF820AFFE3B43D377C38E135EF4C80E502DF4
+BAE8FEF89814BF4BE8831F8AD008E4334BEF2C7D431FE2E202487EF241D334C788F7C42109E5E4
+5608CD74C864F7E38DFAA2041470F700AFEB014B9DB07F02CE204ED4080F8CDD2EBEC0E47830C2
+B4BAE74438317AB383B1E21EEA60F7209D8894E23EFCADDD0FD054A3CF77CFB5E831F8F138AFE1
+FF30A43D7F8084E1238A0B80DFF647F0AF111E2088121590AF6CCB9E0EE10FA3DE0FE083236E13
+728383D0FDE2F0F1E0F6B82322F8603FD91F4CA2FFAD0D435D4FBB86DF9D05D3F4D0077DDD3863
+BBF82024C320FE887E08BFDEF2E1C0F4D22BBB30CB2B30FE2B1C810E8D74E80D636E8178B42C1F
+5783792BBB4FC58F44005D7B23680B008E1DB10FC8DFF8DD43BEA21A8E33CCDD78E338B7E101FD
+0A3D2BC89212288EDF838E08C0F0DFE0AFBF8207FE4023E1E8BE35235E217F7EAF7D38BB2740ED
+3C0D0DC7DEF0012020DD4BE083CFC00CA23020CCFE8216587EF83C7EDE84BF58308B0D47884333
+88FB988340F80E780DF7AC232D2E3AD37679404EB185DD2CFDDB4B688F3B43AF600504FDE38E3F
+87903C5EF420E490708B1C20840343F30ED9D0F24A373E2C8D1331271A0BC411324EC81037C100
+1FCCCCB3033040C00C0402AB2FF9F0CFF43956AD239830ECF4B9370C0D500F3CC00D8E20D99ED9
+8DD378862C802FAE7C85195DC5'H
+          }
+        },
+        seq {
+          id {
+            genbank {
+              accession "QHW06857",
+              version 1
+            },
+            gi 1806555326
+          },
+          descr {
+            title "HSP70h [Potato yellow vein virus]",
+            molinfo {
+              biomol peptide
+            },
+            create-date std {
+              year 2020,
+              month 2,
+              day 12
+            }
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 554,
+            seq-data ncbieaa "MAHKAGLDFGTTFSTISSYSDGVMKVLKLNNSEYIPTCLSISDKGDVI
+IGGAAQVLDSGEIKTCYFYDLKRWVGVDRINYNVIKQKIKPAYVTSLVGNDVHITGINKGFSCTYTVKQLILLFIDTV
+VRLFSKIENLNIVSINVSVPADYKCKQRMFMRSVCDSLGFSLRRIINEPSAAAIYNVSKYPNYKYFIMYDFGGGTFDC
+SLITRDGRFVTVADTEGDSYLGGRDIDNAIQKYLMAKNKLSHPITSDFLASIKEECNSTSKTSFTVFDVNNRLKTVSF
+NKEDLAICTKPFCTRSLDILNNMIERNSITTGVIFLVGGSSLLKTVQDEVRSFSMKKNLDCVIDKDLRNAVSFGCSMQ
+HAQEDSGTMTYIDCNSHPLMDISMFGNPKIIIRKPMSVPYTHIEKRKVDRHYNTALNIYEGSDLFTLNNDWLISADVR
+TKDYCLEGQELSIKYVYNIDGMLDLYIKSNFQNKDILLKNKFSLTEKIAKLDLKLTQLSTIDEAATLVAILSYYNSDL
+EVLLKLVKTPSLFESELSRVVSTKELLSKLVSLNKNFS"
+          },
+          annot {
+            {
+              data ftable {
+                {
+                  data prot {
+                    name {
+                      "HSP70h"
+                    }
+                  },
+                  location int {
+                    from 0,
+                    to 553,
+                    id gi 1806555326
+                  }
+                }
+              }
+            }
+          }
+        },
+        seq {
+          id {
+            genbank {
+              accession "QHW06858",
+              version 1
+            },
+            gi 1806555327
+          },
+          descr {
+            title "p7 [Potato yellow vein virus]",
+            molinfo {
+              biomol peptide
+            },
+            create-date std {
+              year 2020,
+              month 2,
+              day 12
+            }
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 55,
+            seq-data ncbieaa "MNSLCRIIFEVNKNFCVYFLSNNRDFLGDELTYLDPSIEDLRDLLRDH
+FYIRKVW"
+          },
+          annot {
+            {
+              data ftable {
+                {
+                  data prot {
+                    name {
+                      "p7"
+                    }
+                  },
+                  location int {
+                    from 0,
+                    to 54,
+                    id gi 1806555327
+                  }
+                }
+              }
+            }
+          }
+        },
+        seq {
+          id {
+            genbank {
+              accession "QHW06859",
+              version 1
+            },
+            gi 1806555328
+          },
+          descr {
+            title "p60 [Potato yellow vein virus]",
+            molinfo {
+              biomol peptide
+            },
+            create-date std {
+              year 2020,
+              month 2,
+              day 12
+            }
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 521,
+            seq-data ncbieaa "MVSIFRSPVVRDFLSMVFKTNDPSEKIGEINKYLVKNFYIENQNKYRT
+NIKGRLTELTSNYFVRNNEIFVNDSNFLEILKLPVIYMYRIRPELTKNSAYLPENIFASYNYEFYKNSFSPHYDKDLN
+SFLSSNKEIGCLYTERDIQEHYPSVHGVRLLTLYRVCNSLGRYVDLNELDNGNIKGFSIDPDSKAKIIGEGLSSNPLF
+NSCVEIFRSYLELSATKAGNAKVEANKKIFTTYLNCMSLGESYERIRKNPLVIAKFIKLYEEFTKESRGFKDDFEAIK
+LLTPRFKVFLKKVFDVNSSLNDDILFIEMPKSSVVDLLSEPVSVGEYLRSKDAISVVSTSNTLSEKADLLATHIILRF
+LQDKLPAPEDILIDAFLMILGRTTTNSKRFGKPVLVTLKYENMSKEIDISVVVNALNNKVSGAHNEYLGMNVLRLWAN
+SRSSRAMRLFRSLNFNPGLFSYCPGILDYMRFDFYKAIPLKDMTDEEVKSFRTLRLHTEKRTDPQGSYSAECDNWILN
+LKNRS"
+          },
+          annot {
+            {
+              data ftable {
+                {
+                  data prot {
+                    name {
+                      "p60"
+                    }
+                  },
+                  location int {
+                    from 0,
+                    to 520,
+                    id gi 1806555328
+                  }
+                }
+              }
+            }
+          }
+        },
+        seq {
+          id {
+            genbank {
+              accession "QHW06860",
+              version 1
+            },
+            gi 1806555329
+          },
+          descr {
+            title "p10 [Potato yellow vein virus]",
+            molinfo {
+              biomol peptide
+            },
+            create-date std {
+              year 2020,
+              month 2,
+              day 12
+            }
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 84,
+            seq-data ncbieaa "MNSISELITEFGEDRVDEIFALHRSFGQSNPPLCDVLLNLISSKLFSH
+DDVFEESIIEFGDLKSFLLVTKFIRGVYNSRYNLRY"
+          },
+          annot {
+            {
+              data ftable {
+                {
+                  data prot {
+                    name {
+                      "p10"
+                    }
+                  },
+                  location int {
+                    from 0,
+                    to 83,
+                    id gi 1806555329
+                  }
+                }
+              }
+            }
+          }
+        },
+        seq {
+          id {
+            genbank {
+              accession "QHW06861",
+              version 1
+            },
+            gi 1806555330
+          },
+          descr {
+            title "CP [Potato yellow vein virus]",
+            molinfo {
+              biomol peptide
+            },
+            create-date std {
+              year 2020,
+              month 2,
+              day 12
+            }
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 255,
+            seq-data ncbieaa "MDPHGNPIVEPESSNFPESAGVSFTDSQKPPVDRKVKDDSYNLDLLIS
+NVGRRDDIISPDDMSLDKLSRIQVRADRGDVLNDEDKLIFEGCLKNFCKRLTGVDPDPETFLGFFMSVAQMSLNQSTS
+VKNRKNLQLKNYLKIGDKEYIWKTADLLNYLSGQFPNKSNPLRQYMRLCENQIEMLKSSGKIVSDGHLAAKHGTTSQY
+FSSVGDYVNGSKTNISDDDLTANYLFKNAATKSTKKTKSIYNVAQLAGSIE"
+          },
+          annot {
+            {
+              data ftable {
+                {
+                  data prot {
+                    name {
+                      "CP"
+                    }
+                  },
+                  location int {
+                    from 0,
+                    to 254,
+                    id gi 1806555330
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      annot {
+        {
+          data ftable {
+            {
+              data cdregion {
+                frame one,
+                code {
+                  id 1
+                }
+              },
+              product whole gi 1806555326,
+              location int {
+                from 598,
+                to 2262,
+                strand plus,
+                id gi 1806555325
+              }
+            },
+            {
+              data cdregion {
+                frame one,
+                code {
+                  id 1
+                }
+              },
+              product whole gi 1806555327,
+              location int {
+                from 2266,
+                to 2433,
+                strand plus,
+                id gi 1806555325
+              }
+            },
+            {
+              data cdregion {
+                frame one,
+                code {
+                  id 1
+                }
+              },
+              product whole gi 1806555328,
+              location int {
+                from 2427,
+                to 3992,
+                strand plus,
+                id gi 1806555325
+              }
+            },
+            {
+              data cdregion {
+                frame one,
+                code {
+                  id 1
+                }
+              },
+              product whole gi 1806555329,
+              location int {
+                from 4002,
+                to 4256,
+                strand plus,
+                id gi 1806555325
+              }
+            },
+            {
+              data cdregion {
+                frame one,
+                code {
+                  id 1
+                }
+              },
+              product whole gi 1806555330,
+              location int {
+                from 4261,
+                to 5028,
+                strand plus,
+                id gi 1806555325
+              }
+            }
+          }
+        }
+      }
+    },
+    set {
+      class nuc-prot,
+      descr {
+        source {
+          genome genomic,
+          org {
+            taxname "Potato yellow vein virus",
+            db {
+              {
+                db "taxon",
+                tag id 103881
+              }
+            },
+            orgname {
+              name virus "Potato yellow vein virus",
+              attrib "specified",
+              mod {
+                {
+                  subtype isolate,
+                  subname "PYVV/Antioquia/May5"
+                },
+                {
+                  subtype nat-host,
+                  subname "Solanum lycopersicum"
+                }
+              },
+              lineage "Viruses; Riboviria; Orthornavirae; Kitrinoviricota;
+ Alsuviricetes; Martellivirales; Closteroviridae; Crinivirus; Crinivirus
+ flavisolani",
+              gcode 1,
+              div "VRL"
+            }
+          },
+          subtype {
+            {
+              subtype country,
+              name "Colombia"
+            },
+            {
+              subtype segment,
+              name "RNA3"
+            },
+            {
+              subtype collection-date,
+              name "2018"
+            }
+          }
+        }
+      },
+      seq-set {
+        seq {
+          id {
+            genbank {
+              accession "MN088362",
+              version 1
+            },
+            gi 1806555331
+          },
+          descr {
+            molinfo {
+              biomol genomic,
+              completeness complete
+            },
+            user {
+              type str "StructuredComment",
+              data {
+                {
+                  label str "StructuredCommentPrefix",
+                  data str "##Assembly-Data-START##"
+                },
+                {
+                  label str "Assembly Method",
+                  data str "Magic-BLAST v. 2018"
+                },
+                {
+                  label str "Sequencing Technology",
+                  data str "Illumina"
+                },
+                {
+                  label str "StructuredCommentSuffix",
+                  data str "##Assembly-Data-END##"
+                }
+              }
+            },
+            user {
+              class "1.0",
+              type str "AutodefOptions",
+              data {
+                {
+                  label str "UseLabels",
+                  data bool TRUE
+                },
+                {
+                  label str "LeaveParenthetical",
+                  data bool TRUE
+                },
+                {
+                  label str "SpecifyNuclearProduct",
+                  data bool TRUE
+                },
+                {
+                  label str "MaxMods",
+                  data int 0
+                },
+                {
+                  label str "FeatureListType",
+                  data str "Complete Sequence"
+                },
+                {
+                  label str "MiscFeatRule",
+                  data str "Delete"
+                },
+                {
+                  label str "HIVRule",
+                  data str "WantBoth"
+                },
+                {
+                  label str "ModifierList",
+                  data fields {
+                    {
+                      label str "SubSources",
+                      num 1,
+                      data strs {
+                        "segment"
+                      }
+                    },
+                    {
+                      label str "OrgMods",
+                      num 1,
+                      data strs {
+                        "isolate"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            create-date std {
+              year 2020,
+              month 2,
+              day 12
+            }
+          },
+          inst {
+            repr raw,
+            mol rna,
+            length 3875,
+            seq-data ncbi4na '221414488114284818414284821228888411148812884481
+482112121842284224224221482448882144114848141888422211112121121221212211122111
+211282214221481822811118111114112811811181428428811214824881888118142824212822
+441488121112112212888442121484442112121221282124488281211824841121881822224218
+111222111114811111181181118121111141111411111188888482118888118811111811181111
+888488812888811111411111411111441111181888884821148888188111114111414111188811
+118881488141111888818148418848188888488284112882811112114118111182884111121211
+441182112848418111214411418228188484188882821211111818118181441118148848181111
+411218188284181418484882441111414141121841288218282821112448114214888121221142
+842484882424888411148218424182841111118118881118148148188488111882842888128281
+881488884188814884211181182824111124811214841821281148821248421888824814112818
+2888814888882881881818211481811141111181111811111F1111211118111111811111844181
+148284888814184142811818884114184484188222144111188284111888212841441122841112
+128821884882111428182828884182881241118481141221811288821288182218121421142812
+828884188211414281882848282881118821118841182114448121888818182148821182218221
+184281224482188218821112142844121228218448888211184218888811212884211112241414
+282881448182142144181184118888214814141844184444441188481212884421812884448441
+118488121111828828288218882112211288284884114841412841888812288428284118884182
+111428222111481428812144218811111882282241484818821841181184828814884181411828
+221122282841428848182118184821818844182141188211141884881481142844214888184414
+184214182811481114482821488481218282822141821442211822112111114184214112812284
+181888211428214141184884118884184141481184188882482888121111218124118841148214
+228888221148242844818882848481114848888488811184814182121811128212184882141818
+448184414184111141411112814112218844841441841284488281181144118811218822112888
+828181841144184481414482418121884124188882141118241812281828244814181114114418
+184224114841418844411822841241124411114188228182184814814881124122881141824412
+221888218821128841414424421181818888884448284148442811811141141114182884411282
+884122218221421441441411821214121828881118184821418428884824184444184141141142
+824121888211111244284141182188182144481484288214281818221181884424188848214818
+821441821112184821224181888821142241114111114112112214141112244841821882284141
+112112221211882112244114414111144144884811114882111284122111184844121441441121
+111182884884881811188214444188888211112114144884111141821148224112844141148828
+121841142141114828811414114184814184122844882822112884414888228828421218211141
+188241848284122242128218184884888441148424114184481141181411418828181141181412
+188241118828811181841288884484111482241411184824142481818182841418281411484284
+141888814111118812421122414848814218442241141212184221121141414418812842284148
+124288128814228424128828821118884114124884222848284121424111418844218841121482
+241121244881881482821141121118122412481181884841184841182111128888414181884248
+282118288414412118441411822441488418882181822414811844111812821188242282841241
+188218142881821418111242448848411242488121111181242828881882842841841188414242
+888824141821884844848418288411828818882814121844841414848411218488814814111814
+811118288241114828412111811882148222141141112118128214111211144118881888822212
+488482848481841128121141818128211811888848148112888411288888418841248411112144
+818848412241448218228482482184818241841488211848111411888214144888411111218188
+114442111488412812211481822128412414488248282828141418442288841241211844111121
+141818142114188888111411818414112141841848241822111411148188424111148148821141
+288411888142488218488841188114888221281888411841844488418218888811118111211811
+121881418848818418488188181481418218118181188881188828181244481188884288111188
+818881222414482814812414841818128214848188148811182281111281818184818888184818
+812881488114848811811118824481411114184488841111221242288281221181814811181118
+144240'H
+          }
+        },
+        seq {
+          id {
+            genbank {
+              accession "QHW06862",
+              version 1
+            },
+            gi 1806555332
+          },
+          descr {
+            title "p4 [Potato yellow vein virus]",
+            molinfo {
+              biomol peptide
+            },
+            create-date std {
+              year 2020,
+              month 2,
+              day 12
+            }
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 35,
+            seq-data ncbieaa "MCSEKREHDFISQTVSSLHQAACSRLKVMRSEKII"
+          },
+          annot {
+            {
+              data ftable {
+                {
+                  data prot {
+                    name {
+                      "p4"
+                    }
+                  },
+                  location int {
+                    from 0,
+                    to 34,
+                    id gi 1806555332
+                  }
+                }
+              }
+            }
+          }
+        },
+        seq {
+          id {
+            genbank {
+              accession "QHW06863",
+              version 1
+            },
+            gi 1806555333
+          },
+          descr {
+            title "CPm [Potato yellow vein virus]",
+            molinfo {
+              biomol peptide
+            },
+            create-date std {
+              year 2020,
+              month 2,
+              day 12
+            }
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 674,
+            seq-data ncbieaa "MDKSVLDELIFEDGDSQENSEISLRNLKHFIVQSYLFDLTKCKTITFT
+YPYSKLLFDSRAILSLKFKLNQGYILYQFNPSNATGHSFKQLDTSWFSNAFLTLAKPRALRYQQDNEFSVEMDGGNCT
+LGILGWKCYKIFSSFQPTSVEVRLILPCSEFDQSSQSSLQALKIPPSVFMNNVLVDRISNPLSLYQYVILDQNSKIVS
+KLAVYGDADLSKGLSCTSLQIRPIQQKDAELPDISSSENVEFDESNDFRLYKTYELKSAFSKSLVFLCKVFCLNVDHI
+NSHVQIWYGDEKRKLEPLVRMTGSNKELTFQLFYMKDGRGRYIDDFQKSIPISVDKEGYAEVRLGILTNGKDSYHVVV
+NDLKIGPISFNLRGGNIFFGSEWLIKKKDLGTLDPSSRRRITDIFKYVRCFVDGDEKKLDISKTAENHYQGSASAISN
+IGDLSVFRIKHVTDIFKPKEKEQPEKPVIIPEKQPTIQPEGEKEVVKVQTDQNVDRRNKNLVVINSGDFSKQEVEKIK
+SELEKFYMKQKVLREDVDDLVLQLGVSFCTSKNSMSDPHSYVVWKCEDGKNRRFYKNRHSKFLNMTFGESPRNVERIY
+LRSRSAEILEKLRNRVLAWPKTHANKRGLLPEYAYLACDFFKFEDVALSDSERLALNSPNTVISLKNKYRRNIVNVNQ
+NF"
+          },
+          annot {
+            {
+              data ftable {
+                {
+                  data prot {
+                    name {
+                      "CPm"
+                    }
+                  },
+                  location int {
+                    from 0,
+                    to 673,
+                    id gi 1806555333
+                  }
+                }
+              }
+            }
+          }
+        },
+        seq {
+          id {
+            genbank {
+              accession "QHW06864",
+              version 1
+            },
+            gi 1806555334
+          },
+          descr {
+            title "p26 [Potato yellow vein virus]",
+            molinfo {
+              biomol peptide
+            },
+            create-date std {
+              year 2020,
+              month 2,
+              day 12
+            }
+          },
+          inst {
+            repr raw,
+            mol aa,
+            length 230,
+            seq-data ncbieaa "MENPELISYPSNGNTQFASDEFIAYQINAVVNALQKYALYSADELSAF
+RDHCGVILNLISRHGESVNMFSRNSKIFESLTNNSVPEETILRNKGIYFPTLSVYELQDILNNFVVTLNFLIDVKTGI
+VTEVILSSCIDEFNVKNFRGLKNILRAKLTTKYPLTRFVSLEMAFDDNGKQDIARFLKNMRTDDVDPKKVLRKVVQDL
+NLAFMFELSFHYLNDGLIIFKINNKH"
+          },
+          annot {
+            {
+              data ftable {
+                {
+                  data prot {
+                    name {
+                      "p26"
+                    }
+                  },
+                  location int {
+                    from 0,
+                    to 229,
+                    id gi 1806555334
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      annot {
+        {
+          data ftable {
+            {
+              data cdregion {
+                frame one,
+                code {
+                  id 1
+                }
+              },
+              product whole gi 1806555332,
+              location int {
+                from 610,
+                to 717,
+                strand plus,
+                id gi 1806555331
+              }
+            },
+            {
+              data cdregion {
+                frame one,
+                code {
+                  id 1
+                }
+              },
+              product whole gi 1806555333,
+              location int {
+                from 899,
+                to 2923,
+                strand plus,
+                id gi 1806555331
+              }
+            },
+            {
+              data cdregion {
+                frame one,
+                code {
+                  id 1
+                }
+              },
+              product whole gi 1806555334,
+              location int {
+                from 2950,
+                to 3642,
+                strand plus,
+                id gi 1806555331
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
